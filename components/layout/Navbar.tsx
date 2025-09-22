@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white shadow px-6 py-4 flex justify-between items-center">
       <Link href="/" className="text-xl font-bold text-gray-800">
-        MyStore
+        E-Comm
       </Link>
       <ul className="flex space-x-4">
         <li>
