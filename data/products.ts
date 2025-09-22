@@ -28,9 +28,9 @@ export const products: Product[] = [
     category: "Clothing",
     brand: "BrandA",
     imageUrls: {
-    black: "https://i.pinimg.com/736x/db/08/31/db0831e9d531ceb8c23423ebb31a9c45.jpg",
-    red: "https://ethicalschoolwear.com/cdn/shop/files/red-cotton-classic-fit-ethical-work-uniform-t-shirt.png?v=1756239166",
-    blue: "https://i.pinimg.com/736x/c7/49/4e/c7494eff940c18af0ae261d24b9312f1.jpg",
+    black: "/img1.jpg",
+    red: "/img2.webp",
+    blue: "/img3.jpg",
   },
   },
   {
@@ -46,9 +46,9 @@ export const products: Product[] = [
     category: "Footwear",
     brand: "BrandB",
     imageUrls: {
-    white: "https://i.pinimg.com/originals/ae/8e/c2/ae8ec251ceaa243579df5b0fcf1d5c99.jpg",
-    black: "https://i.pinimg.com/474x/d1/24/79/d1247907751a04e55542359f06bb5abc.jpg",
-    blue: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzrsa-FUeqQCsRyZ1uDilxACJ5zxY4VvfI9g&s",
+    white: "i4.jpg",
+    black: "i5.jpg",
+    blue: "i6.jpeg",
   },
     
   },
@@ -65,8 +65,8 @@ export const products: Product[] = [
     category: "Electronics",
     brand: "BrandC",
     imageUrls: {
-    black: "https://www.alasil.ae/cdn/shop/files/s-l1600-4-Photoroom.png?v=1740744803&width=1946",
-    gray: "https://media.cnn.com/api/v1/images/stellar/prod/190320161629-3-underscored-beats-studio-3-review.jpg",
+    black: "i7.webp",
+    gray: "i8.jpg",
     
   },
   },
@@ -83,9 +83,9 @@ export const products: Product[] = [
     category: "Clothing",
     brand: "BrandD",
     imageUrls: {
-    black: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yLujdzR_ajFkZY01nCPy9TMhvZspkTZQ9YLdlb6NrB9EfBNvultHCpWLdfBWP9J9Ck0&usqp=CAU",
-    gray: "https://www.rachelriley.co.uk/cdn/shop/files/GTR56GYAAA_A_800x.jpg?v=1713294814",
-    purple: "https://m.media-amazon.com/images/I/41veJ6VxeoL._UY1000_.jpg",
+    black: "i9.jpeg",
+    gray: "i10.webp",
+    purple: "i11.jpg",
   },
 },
   {
@@ -101,8 +101,8 @@ export const products: Product[] = [
     category: "Electronics",
     brand: "BrandE",
     imageUrls: {
-    black: "https://i.pinimg.com/474x/22/7c/b7/227cb70fafcf903e973fa20732ab1b79.jpg",
-    silver: "https://m.media-amazon.com/images/I/51l0Y+qImML._UF1000,1000_QL80_.jpg",
+    black: "i12.jpg",
+    silver: "i13.jpg",
     
   },
   },
@@ -119,8 +119,8 @@ export const products: Product[] = [
     category: "Accessories",
     brand: "BrandF",
     imageUrls: {
-    black: "https://png.pngtree.com/png-vector/20241117/ourlarge/pngtree-a-black-leather-wallet-isolated-on-transparent-background-png-image_14461093.png",
-    brown: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTewaStf1CDSh7Lhduw4vAWMoEqtJQKsticJQ&s",
+    black: "i14.jpeg",
+    brown: "i.png",
     
   },
   },
@@ -139,7 +139,7 @@ export const products: Product[] = [
     imageUrls: {
     black: "data:image/jpeg;base64,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",
     
-    blue: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV9rJggECd4bX4Im2nbzZ0jp_HneZIkGLdzA&s",
+    blue: "i16.jpeg",
   },
   },
   {
@@ -155,8 +155,8 @@ export const products: Product[] = [
     category: "Electronics",
     brand: "BrandG",
     imageUrls: {
-    black: "https://i.ebayimg.com/images/g/0JIAAOSwSxleOBRF/s-l640.jpg",
-    red: "https://craftbymerlin.com/cdn/shop/products/red_glossy_1_4.png?v=1658847589",
+    black: "i17.jpg",
+    red: "i18.webp",
    
   },
   },
@@ -173,8 +173,8 @@ export const products: Product[] = [
     category: "Accessories",
     brand: "BrandH",
     imageUrls: {
-    black: "https://images.stylishop.com/cdn-cgi/image/width=800,quality=100/media/catalog/product/7003388901/images/7003388901_1.jpg?v=2",
-    brown: "https://images.stylishop.com/cdn-cgi/image/width=800,quality=100/media/catalog/product/7003467205/images/7003467205_1.jpg?v=2",
+    black: "i19.jpg",
+    brown: "i20.jpg",
    
   },
   },
@@ -191,9 +191,9 @@ export const products: Product[] = [
     category: "Accessories",
     brand: "BrandF",
     imageUrls: {
-    black: "https://assets.adidas.com/images/w_1880,f_auto,q_auto/7f46e07ba3c549968697afc400c57fd5_9366/IJ0761_01_00_standard.jpg",
-    green: "https://en-ae.sssports.com/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw7e471632/sss/SSS2/A/D/I/W/1/SSS2_ADIW1781_4066759534018_1.jpg?sw=700&sh=700&sm=fit",
-    blue: "https://assets.adidas.com/images/w_1880,f_auto,q_auto/22bc88d26ffa4e19b9cbe79d6464dee2_9366/IX7457_01_standard.jpg",
+    black: "i22.avif",
+    green: "i23.jpg",
+    blue: "i24.avif",
   },
   },
   {
@@ -209,9 +209,9 @@ export const products: Product[] = [
     category: "Electronics",
     brand: "BrandC",
     imageUrls: {
-    black: "https://i.pinimg.com/236x/d5/71/c3/d571c3eedc6b890516b267650e1d9a70.jpg",
+    black: "i25.jpg",
     
-    blue: "https://i.pinimg.com/236x/d5/71/c3/d571c3eedc6b890516b267650e1d9a70.jpg",
+    blue: "i25.jpg",
   },
   },
   {
@@ -227,9 +227,9 @@ export const products: Product[] = [
     category: "Accessories",
     brand: "BrandI",
     imageUrls: {
-    black: "https://m.media-amazon.com/images/I/711iv+19zvL._UY1000_.jpg",
-    gray: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTd1eGsBDw6c_C_Vp1_oOJUwW-XHbhZjjSg&s",
-    red: "https://cdn11.bigcommerce.com/s-1103cbqbtv/images/stencil/1280x1280/products/34899/35546/3902979_40__72392.1677620927.jpg?c=1"
+    black: "i26.jpg",
+    gray: "i27.jpeg",
+    red: "i28.jpg"
   },
   },
   {
@@ -245,9 +245,9 @@ export const products: Product[] = [
     category: "Clothing",
     brand: "BrandA",
     imageUrls: {
-    black: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8SfAN6z8Q6wTYxSJ2uKxk3b1xSdqrXW-pOQ&s",
-    white: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmzEz3juichy_LmzOqIh06GSlZ12DmGGJNBw&s",
-    green: "https://cdn.media.amplience.net/i/primark/991137249414_03",
+    black: "i29.jpeg",
+    white: "i30.jpeg",
+    green: "i31.jpeg",
   },
   },
   {
@@ -263,8 +263,8 @@ export const products: Product[] = [
     category: "Footwear",
     brand: "BrandB",
     imageUrls: {
-    black: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfg7GvLJt1BNsYELCUttUVKALGX9ZMEyxCMQQa-2eqKo7WJwrYwlRJqN_3VXnDriIwX4c&usqp=CAU",
-    brown: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBnfBQMzMcx21WwpO3rpG6bV5Es9Rx6GIh2yon4LZjYdTX5Xvr_B4Qw17X6L9D5BXgMLs&usqp=CAU"
+    black: "i32.jpeg",
+    brown: "i33.jpeg"
   },
   },
   {
@@ -280,8 +280,8 @@ export const products: Product[] = [
     category: "Accessories",
     brand: "BrandJ",
     imageUrls: {
-    black: "https://www.applegadgetsbd.com/_next/image?url=https%3A%2F%2Fadminapi.applegadgetsbd.com%2Fstorage%2Fmedia%2Fmedium%2F3780-22124.jpg&w=3840&q=100",
-    gray: "https://m.media-amazon.com/images/I/61Vj7k8P-0L._UF1000,1000_QL80_.jpg",
+    black: "i35.webp",
+    gray: "i34.jpg",
     
   },
   },
@@ -298,9 +298,9 @@ export const products: Product[] = [
     category: "Clothing",
     brand: "BrandA",
     imageUrls: {
-    white: "https://m.media-amazon.com/images/I/41uSlibBJzL._SY1000_.jpg",
+    white: "i36.jpeg",
     
-    blue: "https://m.media-amazon.com/images/I/41oFluOcBqL._SY1000_.jpg",
+    blue: "i37.jpg",
   },
   },
   {
@@ -316,9 +316,9 @@ export const products: Product[] = [
     category: "Electronics",
     brand: "BrandE",
     imageUrls: {
-    black: "https://www.jbhifi.com.au/cdn/shop/products/662613-Product-0-I-638314516214165397_2a5a6ef9-365e-41ff-ac79-ac5fc89679ed_grande.jpg",
+    black: "i38.webp",
     
-    gray: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7IkTjBEQCAVSNLPU1eMPJLIFLYtPGxXqO_wcSiR__2u1MGMXlEWHqPJ2mbasYbxRYQsk&usqp=CAU",
+    gray: "i39.jpeg",
   },
   },
   {
@@ -334,8 +334,8 @@ export const products: Product[] = [
     category: "Footwear",
     brand: "BrandB",
     imageUrls: {
-    black: "https://www.mytheresa.com/media/1094/1238/100/42/P00664242.jpg",
-    brown: "https://cdn.endource.com/image/direct/90a5e712ef141b84a5d16d08fba1c5d0c667cdb1/gianvito-rossi-daisen-95-leather-platform-ankle-boots.jpg?class=800&optimizer=image",
+    black: "i40.avif",
+    brown: "i41.webp",
   },
   },
   {
@@ -351,8 +351,8 @@ export const products: Product[] = [
     category: "Accessories",
     brand: "BrandF",
     imageUrls: {
-    black: "https://images-na.ssl-images-amazon.com/images/I/61Vdje-XJbL._AC_UL600_SR600,600_.jpg",
-    blue: "https://www.luggagefactory.com/cdn/shop/products/41OGSgoSyCL_1200x1200.jpg?v=1561402654",
+    black: "i43.jpg",
+    blue: "i44.webp",
   },
   },
   {
@@ -368,8 +368,8 @@ export const products: Product[] = [
     category: "Clothing",
     brand: "BrandD",
     imageUrls: {
-    black: "https://www.ardmoor.co.uk/cdn/shop/files/Helly-Hansen-Manchester-2.0-Winter-Jacket-black.jpg?v=1731064888",
-    gray: "https://www.hhworkwear.com/media/catalog/product/7/4/74085_950-4-front.jpg",
+    black: "i45.webp",
+    gray: "i46.webp",
   },
   },
   {
@@ -385,8 +385,8 @@ export const products: Product[] = [
     category: "Electronics",
     brand: "BrandG",
     imageUrls: {
-    black: "https://m.media-amazon.com/images/I/61Z75u-IJUL.jpg",
-    white: "https://m.media-amazon.com/images/I/61AUmw4q2TL._UF1000,1000_QL80_.jpg",
+    black: "i47.jpg",
+    white: "i48.jpg",
   },
   },
   {
@@ -402,8 +402,8 @@ export const products: Product[] = [
     category: "Footwear",
     brand: "BrandB",
     imageUrls: {
-    black: "https://5.imimg.com/data5/SELLER/Default/2021/12/WJ/WH/SA/143519413/sandal-heel-500x500.jpg",
-    red: "https://assets.ajio.com/medias/sys_master/root/20220716/aV19/62d1bd5faeb26921af7e3cda/-473Wx593H-469210548-red-MODEL.jpg",
+    black: "i49.webp",
+    red: "i50.avif",
     
   },
   },
@@ -420,9 +420,9 @@ export const products: Product[] = [
     category: "Clothing",
     brand: "BrandA",
     imageUrls: {
-    black: "https://image-resizing.booztcdn.com/only-play/opy15101974_cscarab_v201830.webp?has_grey=1&has_webp=1&version=e077bf41c145e52008f140d5abd120bd&dpr=2.5&size=w400",
-    pink: "https://m.media-amazon.com/images/I/81uSztayJWL._UY1000_.jpg",
-    white: "https://images.only.com/15324677/4674607/001/only-onpdaisy-2seamlongbra-turquiose.jpg?v=b13f5022dcc49ad2181d0130c1db6613",
+    black: "i51.webp",
+    pink: "i52.jpg",
+    white: "i53.jpg",
   },
   },
   {
@@ -438,9 +438,9 @@ export const products: Product[] = [
     category: "Accessories",
     brand: "BrandJ",
     imageUrls: {
-    black: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MT1A3?wid=4000&hei=4000&fmt=jpeg&qlt=90&.v=1693007391617",
-    red: "https://www.seller.gsmprice.com/image/cache/catalog/v4QnSTp/iphone-15-pro-28-650x650.jpg",
-    blue: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MT1D3?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1693007476686",
+    black: "i54.jpeg",
+    red: "i55.jpg",
+    blue: "i56.jpeg",
   },
   },
 ];

@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import type { Product } from "@/data/products";
-import Rating from "./Rating";
+
 type Props = {
   product: Product;
 };
