@@ -78,7 +78,7 @@ ecommerce-listing/
 ├── tailwind.config.js
 └── next.config.js
 
-yaml
+
 
 
 ---
@@ -110,9 +110,6 @@ Set Framework Preset to Next.js
 Deploy
 
 If you use external image URLs (e.g. from mytheresa.com), add them in next.config.js:
-
-js
-Copy code
 images: {
   domains: ['www.mytheresa.com'],
 }
@@ -127,8 +124,6 @@ Customize styles via Tailwind CSS
 
 📌 ESLint Tips
 If you're using raw <img> tags or want to suppress linting errors:
-
-js
 
 // next.config.js
 eslint: {
